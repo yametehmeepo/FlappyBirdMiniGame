@@ -32,7 +32,7 @@ export default class Main {
         this.DataStore.cxt = this.cxt
         this.DataStore.res = res
         this.createBackgroundMusic()
-        const exampleApi = new ExampleAPI()
+        //const exampleApi = new ExampleAPI()
         //exampleApi.getUserInfo()
         //exampleApi.login()
         //exampleApi.httprequest()

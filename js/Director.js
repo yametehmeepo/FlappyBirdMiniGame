@@ -63,7 +63,7 @@ export default class Director {
             clearTimeout(this.DataStore.get('clickTimer'))
             let clickTimer = setTimeout(() => {
                 this.DataStore.put('canClickStartButton', true)
-            }, 500)
+            }, 300)
             this.DataStore.put('clickTimer', clickTimer)
         }
     }
