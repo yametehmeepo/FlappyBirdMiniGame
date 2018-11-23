@@ -20,7 +20,7 @@ export default class Main {
             if (this.Director.isGameOver) {
                 if (this.DataStore.get('canClickStartButton')) {
                     this.init()
-                    this.DataStore.innerAudioContext.play()
+                    this.createBackgroundMusic()
                 }
             } else {
                 this.DataStore.get('birds').vy = -5.8

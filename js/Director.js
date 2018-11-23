@@ -55,7 +55,7 @@ export default class Director {
                     //console.log('震动+1分')
                 }
             })
-            this.DataStore.innerAudioContext.stop()
+            this.DataStore.innerAudioContext.destroy()
             cancelAnimationFrame(this.DataStore.get('timer'))
             this.DataStore.get('startbutton').draw()
             this.DataStore.destroy()
